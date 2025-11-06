@@ -24,6 +24,16 @@
         grid-area: aval;
         place-content: right;
         font-size: 4em;
+        background-color: darkgreen;
+        color: white;
+    }
+
+    .avalBaixa{
+        grid-area: aval;
+        place-content: right;
+        font-size: 4em;
+        background-color: darkred;
+        color: white;
     }
 
     .lab{

@@ -16,9 +16,9 @@ const PERIODO: PeriodoType[] = [
         [
           ["Algoritmos I - teórica", 60, 3.6, false],
           ["Algoritmos I - prática", 30, 4.6, true],
-          ["Geometria Analítica e Sistemas Lineares", 30, 5, false],
-          ["Lógica e Fundamentos para a Computação", 60, 5, false],
-          ["Desenvolvimento Web", 30, 5, true],
+          ["Geometria Analítica e Sistemas Lineares", 30, 4.3, false],
+          ["Lógica e Fundamentos para a Computação", 60, 3.8, false],
+          ["Desenvolvimento Web", 30, 4.2, true],
           ["Introdução à Sistemas de Informação", 30, 5, true],
         ],
       ],
@@ -42,11 +42,11 @@ const PERIODO: PeriodoType[] = [
       [
         "FORMAÇÃO BÁSICA",
         [
-          ["Algoritmos II - teórica", 60, 5, false],
-          ["Algoritmos II - prática", 30, 5, true],
-          ["Cálculo I", 60, 5, false],
-          ["Aspectos Organizacionais de Sistemas de Informação", 60, 5, false],
-          ["Desenvolvimento Web II", 30, 5, true],
+          ["Algoritmos II - teórica", 60, 3.4, false],
+          ["Algoritmos II - prática", 30, 4.2, true],
+          ["Cálculo I", 60, 3.2, false],
+          ["Aspectos Organizacionais de Sistemas de Informação", 60, 4.7, false],
+          ["Desenvolvimento Web II", 30, 4.3, true],
         ],
       ],
       [
@@ -58,8 +58,8 @@ const PERIODO: PeriodoType[] = [
       [
         "FORMAÇÃO COMPLEMENTAR / HUMANÍSTICA",
         [
-          ["Administração e Organização de Empresas", 60, 5, false],
-          ["Introdução à extensão", 60, 5, false],
+          ["Administração e Organização de Empresas", 60, 3.7, false],
+          ["Introdução à extensão", 60, 4.6, false],
         ],
       ],
     ],
@@ -70,22 +70,22 @@ const PERIODO: PeriodoType[] = [
       [
         "FORMAÇÃO BÁSICA",
         [
-          ["Cálculo II", 60, 5, false],
-          ["Estrutura de Dados", 60, 5, false],
-          ["Orientação a Objetos", 60, 5, false],
+          ["Cálculo II", 60, 4.2, false],
+          ["Estrutura de Dados", 60, 3.1, false],
+          ["Orientação a Objetos", 60, 3.0, false],
         ],
       ],
       [
         "FORMAÇÃO TECNOLÓGICA",
         [
-          ["Desenvolvimento Web Front-End", 60, 5, true],
+          ["Desenvolvimento Web Front-End", 60, 4.4, true],
           ["Disciplina Eletiva", 30, 0.0, false],
         ],
       ],
       [
         "FORMAÇÃO COMPLEMENTAR / HUMANÍSTICA",
         [
-          ["Metodologia Científica", 60, 5, false],
+          ["Metodologia Científica", 60, 3.8, false],
         ],
       ],
     ],
@@ -96,22 +96,22 @@ const PERIODO: PeriodoType[] = [
       [
         "FORMAÇÃO BÁSICA",
         [
-          ["Introdução à Estatística", 60, 5, false],
-          ["Estrutura de Dados II", 60, 5, false],
+          ["Introdução à Estatística", 60, 3.6, false],
+          ["Estrutura de Dados II", 60, 3.2, false],
         ],
       ],
       [
         "FORMAÇÃO TECNOLÓGICA",
         [
-          ["Modelagem de Sistemas", 60, 5, false],
-          ["Desenvolvimento para Dispositivos Móveis", 60, 5, true],
-          ["Organização de Computadores", 60, 5, false],
+          ["Modelagem de Sistemas", 60, 4.1, false],
+          ["Desenvolvimento para Dispositivos Móveis", 60, 4.9, true],
+          ["Organização de Computadores", 60, 3.8, false],
         ],
       ],
       [
         "FORMAÇÃO COMPLEMENTAR / HUMANÍSTICA",
         [
-          ["Aspectos Legais da Informática", 60, 5, false],
+          ["Aspectos Legais da Informática", 60, 4.8, false],
         ],
       ],
     ],
@@ -128,17 +128,17 @@ const PERIODO: PeriodoType[] = [
       [
         "FORMAÇÃO TECNOLÓGICA",
         [
-          ["Sistemas Operacionais", 60, 5, false],
-          ["Teoria dos Grafos", 60, 5, false],
-          ["Banco de Dados", 60, 5, false],
-          ["Engenharia de Software", 60, 5, false],
+          ["Sistemas Operacionais", 60, 4.2, false],
+          ["Teoria dos Grafos", 60, 3.7, false],
+          ["Banco de Dados", 60, 3.1, false],
+          ["Engenharia de Software", 60, 4.5, false],
         ],
       ],
       [
         "FORMAÇÃO COMPLEMENTAR / HUMANÍSTICA",
         [
-          ["Contabilidade Geral e Introdutória", 60, 5, false],
-          ["Informática e Sociedade", 30, 5, false],
+          ["Contabilidade Geral e Introdutória", 60, 3.6, false],
+          ["Informática e Sociedade", 30, 4.9, false],
         ],
       ],
     ],
@@ -155,17 +155,17 @@ const PERIODO: PeriodoType[] = [
       [
         "FORMAÇÃO TECNOLÓGICA",
         [
-          ["Redes de Computadores", 60, 5, false],
-          ["Interação Humano-Computador", 60, 5, false],
-          ["Aspectos Teóricos da Computação", 60, 5, false],
-          ["Desenvolvimento Web Back-End", 60, 5, false],
+          ["Redes de Computadores", 60, 4.2, false],
+          ["Interação Humano-Computador", 60, 3.9, false],
+          ["Aspectos Teóricos da Computação", 60, 3.6, false],
+          ["Desenvolvimento Web Back-End", 60, 3.7, false],
         ],
       ],
       [
         "FORMAÇÃO COMPLEMENTAR / HUMANÍSTICA",
         [
-          ["Empreendedorismo Tecnológico", 60, 5, false],
-          ["Disciplina Eletiva", 30, 5, false],
+          ["Empreendedorismo Tecnológico", 60, 3.2, false],
+          ["Disciplina Eletiva", 30, 0.0, false],
         ],
       ],
     ],
@@ -182,17 +182,17 @@ const PERIODO: PeriodoType[] = [
       [
         "FORMAÇÃO TECNOLÓGICA",
         [
-          ["Inteligência Artificial", 60, 5, false],
-          ["Teste de Software", 60, 5, true],
-          ["Aspectos Avançados em Banco de Dados", 60, 5, false],
-          ["Aspectos Avançados em Engenharia de Software", 60, 5, false],
+          ["Inteligência Artificial", 60, 4.3, false],
+          ["Teste de Software", 60, 3.7, true],
+          ["Aspectos Avançados em Banco de Dados", 60, 3.9, false],
+          ["Aspectos Avançados em Engenharia de Software", 60, 3.5, false],
         ],
       ],
       [
         "FORMAÇÃO COMPLEMENTAR / HUMANÍSTICA",
         [
-          ["Trabalho de Conclusão de Curso I", 30, 5, false],
-          ["Disciplina Eletiva", 60, 5, false],
+          ["Trabalho de Conclusão de Curso I", 30, 5.0, false],
+          ["Disciplina Eletiva", 60, 0.0, false],
         ],
       ],
     ],
@@ -209,16 +209,16 @@ const PERIODO: PeriodoType[] = [
       [
         "FORMAÇÃO TECNOLÓGICA",
         [
-          ["Sistemas de Apoio à Decisão", 60, 5, false],
-          ["Segurança e Auditoria de Sistemas", 60, 5, false],
-          ["Gerência de Projetos", 60, 5, false],
+          ["Sistemas de Apoio à Decisão", 60, 4.3, false],
+          ["Segurança e Auditoria de Sistemas", 60, 3.9, false],
+          ["Gerência de Projetos", 60, 4.7, false],
         ],
       ],
       [
         "FORMAÇÃO COMPLEMENTAR / HUMANÍSTICA",
         [
-          ["Trabalho de Conclusão de Curso II", 60, 5, false],
-          ["Disciplina Eletiva", 120, 5, false],
+          ["Trabalho de Conclusão de Curso II", 60, 5.0, false],
+          ["Disciplina Eletiva", 120, 0.0, false],
         ],
       ],
     ],

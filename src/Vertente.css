@@ -1,6 +1,6 @@
 .vertente{
     display: grid;
-    place-items: center;
+    position: relative;
     grid-template-areas: 
     ". ramo ."
     ". . ."

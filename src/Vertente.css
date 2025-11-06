@@ -1,21 +1,16 @@
 .vertente{
     display: grid;
+    place-items: center;
     grid-template-areas: 
-    "periodo ramo"
-    "disciplinas disciplinas";
-    padding: 1em;
+    ". ramo ."
+    ". . ."
+    "disciplinas disciplinas disciplinas";
+    padding: 3px;
     box-shadow: 0.1em 0.2em 0.2em;
     gap: 0.1em;
-
-    .periodo{
-        width:600px;
-        color: black;
-        font-weight: 600;
-        background-color: rgb(175, 170, 170);
-        grid-area: periodo;
-    }
+    width: 800px;
     .ramo{
-        width:600px;
+        width:800px;
         color: black;
         background-color: rgb(175, 170, 170);
         font-weight: 600;
@@ -24,7 +19,7 @@
     .disciplinas{
         display: grid;
         grid-area: disciplinas;
-        gap: 0.6em;
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 5px;
+        grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
     }
 }

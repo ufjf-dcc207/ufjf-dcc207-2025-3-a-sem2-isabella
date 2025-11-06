@@ -1,47 +1,44 @@
 .disciplina{
     border: 1px solid black;
     border-radius: 0.5em;
-    padding: 0.5em;
-    font-weight: 600;
+    padding: 10px;
+    width: 600px;
     box-shadow: 0.1em 0.1em 0.2em;
     display: grid;
+    place-items: center;
     grid-template-areas: 
-    "nome nome . carga "
-    ".  aval lab .";
+    ". nome nome . carga"
+    ". . . . ."
+    "aval . . lab .";
 
     .nome{
         grid-area: nome;
-        place-content: right;
-        font-size: 14px;
+        font-size: 25px;
     }
 
     .carga{
-        grid-area: black;
-        color: grey;
+        grid-area: carga;
+        font-weight: bold;
     }
 
     .aval{
+        height: auto;
         grid-area: aval;
-        place-content: right;
-        font-size: 4em;
+        font-size: 20px;
         background-color: darkgreen;
-        color: white;
     }
 
     .avalBaixa{
         grid-area: aval;
-        place-content: right;
-        font-size: 4em;
+        font-size: 20px;
         background-color: darkred;
-        color: white;
     }
 
     .lab{
         grid-area: lab;
         text-transform: uppercase;
-        background-color: darkblue;
+        background-color: rgb(4, 4, 71);
+        font-size: 20px;
         color: white;
-        font-size: 0.75em;
-        place-content: right;
     }
 }

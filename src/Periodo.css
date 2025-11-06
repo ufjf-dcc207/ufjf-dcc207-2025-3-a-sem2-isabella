@@ -1,31 +1,23 @@
 .periodoPai{
     display: grid;
     grid-template-areas: 
-    "periodo"
-    "ramo"
-    "disciplinas disciplinas";
+    ". periodo ."
+    ". ramo .";
     padding: 1em;
     box-shadow: 0.1em 0.2em 0.2em;
     gap: 0.1em;
-
+    width: 800px;
+    align-content: center;
     .periodo{
-        width:600px;
+        width:800px;
         color: black;
         font-weight: 600;
         background-color: rgb(175, 170, 170);
         grid-area: periodo;
     }
+
     .ramos{
         width:600px;
-        color: black;
-        background-color: rgb(175, 170, 170);
-        font-weight: 600;
         grid-area: ramo;
-    }
-    .disciplinas{
-        display: grid;
-        grid-area: disciplinas;
-        gap: 0.6em;
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     }
 }

@@ -1,5 +1,7 @@
 .emoji{
-    font-size: 40px;
+    .situacao{
+        font-size: 20px;
+    }
     .acoes{
         display: flex;
         flex-direction: column;

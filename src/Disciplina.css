@@ -9,7 +9,7 @@
     grid-template-areas: 
     ". nome nome . carga"
     ". . . . ."
-    "aval . . lab .";
+    ". . . lab .";
 
     .nome{
         grid-area: nome;
@@ -19,19 +19,6 @@
     .carga{
         grid-area: carga;
         font-weight: bold;
-    }
-
-    .aval{
-        height: auto;
-        grid-area: aval;
-        font-size: 20px;
-        background-color: darkgreen;
-    }
-
-    .avalBaixa{
-        grid-area: aval;
-        font-size: 20px;
-        background-color: darkred;
     }
 
     .lab{

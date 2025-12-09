@@ -7,9 +7,9 @@
     display: grid;
     position: relative;
     grid-template-areas: 
-    ". nome nome . carga"
-    "aval . . . ."
-    ". . . lab .";
+    ". nome nome . ."
+    ". carga . lab ."
+    ". aval . instancia .";
 
     .nome{
         grid-area: nome;

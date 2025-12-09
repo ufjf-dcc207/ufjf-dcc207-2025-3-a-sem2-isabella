@@ -29,9 +29,8 @@ export default function Situacao(){
     
     return(
         <div className="emoji">
-            <div className="situacao">{SITUACOES.get(situacao)}</div>
             <div>
-                <button onClick={onAtualiza}></button>
+                <button onClick={onAtualiza}>{SITUACOES.get(situacao) || "💀"}</button>
             </div>
         </div>
     )

@@ -1,5 +1,7 @@
 import "./Disciplina.css";
 import Avaliacao from "./Avaliacao";
+import Situacao from "./Situacao";
+
 type DisciplinaProps = {
     nome: string;
     carga: number;
@@ -19,7 +21,9 @@ export default function Disciplina({
             <div className="aval">
                 <Avaliacao icone="⭐"></Avaliacao>
             </div>
-            
+            <div className="instancia">
+                <Situacao />
+            </div>
             {lab && <div className="lab">LABORATÓRIO</div>}
             
         </div>

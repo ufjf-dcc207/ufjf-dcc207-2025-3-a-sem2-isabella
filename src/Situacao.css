@@ -1,0 +1,9 @@
+.emoji{
+    .situacao{
+        font-size: 2em;
+    }
+    .acoes{
+        display: flex;
+        flex-direction: column;
+    }
+}
